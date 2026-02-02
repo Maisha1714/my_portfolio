@@ -73,7 +73,7 @@ const swiper = new Swiper('.brands-swiper', {
 
 document.getElementById("downloadCV").addEventListener("click", () => {
   const link = document.createElement("a");
-  link.href = "./CV__for_UXUI.pdf";   // CV file path
+  link.href = "./CV__for_UXUI (3).pdf";   // CV file path
   link.download = "Maisha_CV.pdf"; // Downloaded file name
   document.body.appendChild(link);
   link.click();
